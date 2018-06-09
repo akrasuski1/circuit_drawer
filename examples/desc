@@ -1,0 +1,150 @@
+
+define r47k resistor 192 192 0
+define r1m resistor 128 64 64
+define npn transistor 0 0 0
+
+diode B4 B2
+diode B4 D4
+diode B5 D5
+diode B5 B7
+
+r47k D3 G4
+r1m D4 G5
+r1m D5 G6
+r1m D6 G7
+
+npn H6 H5 H4
+
+diode I4 I2
+diode I4 I7
+r1m J5 J7
+diode J4 J1
+
+npn K6 K5 K4
+
+r47k K3 M5
+diode L5 L7
+r1m L2 N4
+r1m M6 O4
+r1m L7 O6
+
+npn P6 P5 P4
+
+r47k O3 R4
+diode Q4 Q7
+r1m R5 R7
+r47k Q3 T4
+
+npn S6 S5 S4
+
+# Bottom part.
+
+r1m S10 V10
+r1m V13 T15
+
+npn S12 S15 S16
+
+diode R9 R11
+diode R15 R12
+diode R9 P9
+
+r1m N9 Q10
+r1m N10 Q11
+r1m N11 Q12
+r47k N12 Q13
+
+npn M10 M11 M12
+
+diode L12 L9
+diode L12 L14
+diode K12 K14
+diode I15 K14
+r1m K11 K9
+
+npn J10 J11 J12
+
+diode I11 I9
+r47k H11 J13
+r1m I14 G12
+r1m F12  H10
+r1m I9 F10
+r47k G13 G16
+
+npn E10 E11 E12
+
+r47k F13 C12
+diode D11 D9
+r1m C11 C9
+r47k D13 A13
+
+npn B10 B11 B12
+
+pin A3
+pin A4
+pin A5
+pin A6
+
+pin A14
+pin A15
+pin A16
+
+wire A3 U3
+wire A4 B4
+wire A5 B5
+wire A6 S6
+wire B2 L2
+wire J1 V1
+wire G4 J4
+wire D4 D5
+wire B7 J7
+wire G5 H5
+wire J5 K5
+wire L5 M5
+wire N4 O4
+wire O4 O5
+wire O5 P5
+wire P4 R4
+wire R5 S5
+wire S4 T4
+wire T4 T9
+wire U3 U13
+wire K4 L4
+wire L4 L5
+
+wire K6 K8
+wire K8 J8
+wire J8 J10
+
+wire S10 B10
+wire P9 K9
+wire I9 C9
+wire T9 R9
+wire S10 S12
+wire S16 A16
+wire R15 A15
+wire Q11 R11
+wire R11 R12
+wire R12 Q12
+wire U13 D13
+wire N11 M11
+wire N12 K12
+wire J12 I12
+wire I12 I11
+wire I11 H11
+wire K11 J11
+wire G12 F12
+wire F12 F11
+wire F11 E11
+wire E12 C12
+wire D12 D11
+wire C11 B11
+wire B12 A12
+wire A12 A14
+wire L14 V14
+wire V14 V1
+wire T15 S15
+wire I14 K14
+wire L7 R7
+
+
+
