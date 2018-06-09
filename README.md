@@ -15,9 +15,9 @@ python3 examples/desc top.png bottom.png
 ```
 Results:
 
-![top](examples/top.png)
+![bottom](examples/top-large.png)
 
-![bottom](examples/bottom.png)
+![bottom](examples/bottom-large.png)
 
 The code is mostly undocumented, with features hacked on when needed. See also `modify.py` to provide
 basic editing functionality (translations, rotations, etc.).
